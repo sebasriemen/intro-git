@@ -1,5 +1,33 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	font-family: sans-serif, arial;
-	width: 80%;
-	margin: 0 auto;
+	margin: 0;
+	text-align: justify;
+}
+
+header {
+	height: 60px;
+	background: #4286f4;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+}
+
+.nav li {
+	margin-left: 10px;
+}
+
+.nav {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+.main {
+	margin: 0;
 }
